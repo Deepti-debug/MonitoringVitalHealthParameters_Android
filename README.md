@@ -6,4 +6,4 @@
   
     • Sending data to the cloud (NoSQL database) 
   
-• flowchart_android.pdf - describes the flowchart of all the activities of the android code.
+• flowChart_android.pdf - describes the flowchart of all the activities of the android code.
