@@ -1,0 +1,130 @@
+[
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_options.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_options.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable-mdpi_homepage.png.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable-mdpi/homepage.png"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable-xxhdpi_ic_provider.png.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable-xxhdpi/ic_provider.png"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_after_login.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_after_login.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_email_password_doctor.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_email_password_doctor.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable-xxhdpi_ic_chooser.png.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable-xxhdpi/ic_chooser.png"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_after_signup.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_after_signup.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable-hdpi_tile.9.png.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable-hdpi/tile.9.png"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_make_graph.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_make_graph.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable-xxhdpi_ic_file.png.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable-xxhdpi/ic_file.png"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/menu_main.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_file.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/file.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_temporarry.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/temporarry.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable_rounded_imageview.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable/rounded_imageview.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable_color_progress.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable/color_progress.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable_color_cursor.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable/color_cursor.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable-hdpi_ic_launcher.png.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_all_at_once.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_all_at_once.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable-xxhdpi_ic_folder.png.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable-xxhdpi/ic_folder.png"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable-mdpi_ic_launcher.png.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_make_graph_multi.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_make_graph_multi.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_doctor_or_patient.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_doctor_or_patient.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable_rounded_button.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable/rounded_button.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_listitem_device.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/listitem_device.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/xml_provider_paths.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/xml/provider_paths.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_actionbar_indeterminate_progress.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_email_password.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_email_password.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/menu_gatt_services.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/menu/gatt_services.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_password_protection.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_password_protection.xml"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/drawable-mdpi_ceeri.png.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/drawable-mdpi/ceeri.png"
+    },
+    {
+        "merged": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/build/intermediates/res/merged/release/layout_activity_graph_mode.xml.flat",
+        "source": "/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/res/layout/activity_graph_mode.xml"
+    }
+]

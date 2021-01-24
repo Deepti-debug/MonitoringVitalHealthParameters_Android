@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graphviewECG"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginBottom="10dp" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graphviewEMG"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/graphviewECG" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graphviewGSR"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/graphviewEMG" />
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graphviewPULSE"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_below="@id/graphviewGSR" />
+
+        <TextView
+            android:id="@+id/textLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/graphviewPULSE" />
+
+        <Button
+            android:id="@+id/showGraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textLink"
+            android:background="@drawable/rounded_button"
+            android:text="Show Graph"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+</ScrollView>

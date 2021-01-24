@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1015603584551-hc3bnn4pkmnfhmvoup5n71nvsencsf7p.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://human-health-care.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1015603584551</string>
+    <string name="google_api_key" translatable="false">AIzaSyDxc4KWqvonOeGnlt3sHPyRfWvSh53-ne8</string>
+    <string name="google_app_id" translatable="false">1:1015603584551:android:cdf86cbd4a35cbe3ba3802</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDxc4KWqvonOeGnlt3sHPyRfWvSh53-ne8</string>
+    <string name="google_storage_bucket" translatable="false">human-health-care.appspot.com</string>
+    <string name="project_id" translatable="false">human-health-care</string>
+</resources>

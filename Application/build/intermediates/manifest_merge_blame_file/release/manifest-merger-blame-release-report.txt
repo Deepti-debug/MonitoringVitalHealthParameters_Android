@@ -1,0 +1,382 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ceeri.android.remotehealthmonitoring"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:7:5-81
+11-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:7:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:8:5-80
+12-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:8:22-77
+13
+14    <uses-feature
+14-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:10:5-12:35
+15        android:name="android.hardware.bluetooth_le"
+15-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:11:9-53
+16        android:required="true" />
+16-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:12:9-32
+17
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:14:5-68
+18-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:14:22-65
+19    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+19-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:15:5-74
+19-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:15:22-71
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:16:5-81
+20-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:16:22-78
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:17:5-79
+21-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:17:22-76
+22    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!-- new permission -->
+22-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:18:5-85
+22-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:18:22-82
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:19:5-67
+23-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:19:22-64
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:20:5-79
+24-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:20:22-76
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:21:5-76
+25-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:21:22-73
+26    <uses-permission android:name="android.permission.WAKE_LOCK" />
+26-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:25:5-68
+26-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:25:22-65
+27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+27-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:26:5-110
+27-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:26:22-107
+28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+28-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
+28-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+29
+30    <application
+30-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:23:5-91:19
+31        android:allowBackup="true"
+31-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:24:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.1.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/42d988460367295869f055846f4e47b1/core-1.1.0/AndroidManifest.xml:24:18-86
+33        android:extractNativeLibs="false"
+34        android:icon="@drawable/ceeri"
+34-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:25:9-39
+35        android:label="@string/app_name"
+35-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:26:9-41
+36        android:supportsRtl="true" >
+36-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:27:9-35
+37        <activity
+37-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:28:9-30:47
+38            android:name="com.ceeri.android.remotehealthmonitoring.graphModeActivity"
+38-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:29:13-86
+39            android:theme="@style/AppTheme" />
+39-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:30:13-44
+40        <activity
+40-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:31:9-33:47
+41            android:name="com.ceeri.android.remotehealthmonitoring.passwordProtection"
+41-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:32:13-87
+42            android:theme="@style/AppTheme" />
+42-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:33:13-44
+43        <activity
+43-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:34:9-36:47
+44            android:name="com.ceeri.android.remotehealthmonitoring.emailPasswordDoctorActivity"
+44-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:35:13-96
+45            android:theme="@style/AppTheme" />
+45-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:36:13-44
+46        <activity
+46-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:37:9-39:47
+47            android:name="com.ceeri.android.remotehealthmonitoring.DoctorOrPatient"
+47-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:38:13-84
+48            android:theme="@style/AppTheme" />
+48-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:39:13-44
+49        <activity
+49-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:40:9-42:47
+50            android:name="com.ceeri.android.remotehealthmonitoring.MakeGraph_multi"
+50-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:41:13-84
+51            android:theme="@style/AppTheme" />
+51-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:42:13-44
+52        <activity
+52-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:43:9-45:47
+53            android:name="com.ceeri.android.remotehealthmonitoring.MakeGraph"
+53-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:44:13-78
+54            android:theme="@style/AppTheme" />
+54-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:45:13-44
+55        <activity
+55-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:46:9-48:47
+56            android:name="com.ceeri.android.remotehealthmonitoring.AfterSignupActivity"
+56-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:47:13-88
+57            android:theme="@style/AppTheme" />
+57-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:48:13-44
+58        <activity
+58-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:49:9-51:47
+59            android:name="com.ceeri.android.remotehealthmonitoring.emailPasswordActivity"
+59-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:50:13-90
+60            android:theme="@style/AppTheme" />
+60-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:51:13-44
+61        <activity
+61-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:52:9-54:47
+62            android:name="com.ceeri.android.remotehealthmonitoring.AfterLoginActivity"
+62-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:53:13-87
+63            android:theme="@style/AppTheme" />
+63-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:54:13-44
+64        <activity
+64-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:55:9-57:47
+65            android:name="com.ceeri.android.remotehealthmonitoring.AllAtOnceActivity"
+65-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:56:13-86
+66            android:theme="@style/AppTheme" />
+66-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:57:13-44
+67        <activity
+67-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:58:9-60:47
+68            android:name="com.ceeri.android.remotehealthmonitoring.optionsActivity"
+68-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:59:13-84
+69            android:theme="@style/AppTheme" />
+69-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:60:13-44
+70        <activity
+70-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:61:9-63:59
+71            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+71-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:62:13-76
+72            android:theme="@style/Base.Theme.AppCompat" />
+72-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:63:13-56
+73        <activity
+73-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:64:9-75:20
+74            android:name="com.ceeri.android.remotehealthmonitoring.DeviceScanActivity"
+74-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:65:13-87
+75            android:label="@string/app_name"
+75-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:66:13-45
+76            android:theme="@android:style/Theme.Holo.Light" >
+76-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:67:13-60
+77            <intent-filter>
+77-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:68:13-74:29
+78                <action android:name="android.intent.action.MAIN" />
+78-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:69:17-69
+78-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:69:25-66
+79
+80                <category android:name="android.intent.category.LAUNCHER" />
+80-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:71:17-77
+80-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:71:27-74
+81
+82                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+82-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:73:17-84
+82-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:73:25-81
+83            </intent-filter>
+84        </activity>
+85
+86        <service
+86-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:77:9-80:63
+87            android:name="com.ceeri.android.remotehealthmonitoring.BluetoothLeService"
+87-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:78:13-87
+88            android:enabled="true"
+88-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:79:13-35
+89            android:theme="@android:style/Theme.Holo.Light" />
+89-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:80:13-60
+90
+91        <provider
+91-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:82:9-90:20
+92            android:name="androidx.core.content.FileProvider"
+92-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:83:13-62
+93            android:authorities="com.ceeri.android.remotehealthmonitoring.fileprovider"
+93-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:84:13-88
+94            android:exported="false"
+94-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:85:13-37
+95            android:grantUriPermissions="true" >
+95-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:86:13-47
+96            <meta-data
+96-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:87:13-89:58
+97                android:name="android.support.FILE_PROVIDER_PATHS"
+97-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:88:17-67
+98                android:resource="@xml/provider_paths" />
+98-->/Users/deeptirawat/AndroidStudioProjects/remoteHealth4/Application/src/main/AndroidManifest.xml:89:17-55
+99        </provider>
+100
+101        <activity
+101-->[com.karumi:dexter:4.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2aa2ddacce128babd666c2343eb4e8be/jetified-dexter-4.2.0/AndroidManifest.xml:27:9-29:72
+102            android:name="com.karumi.dexter.DexterActivity"
+102-->[com.karumi:dexter:4.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2aa2ddacce128babd666c2343eb4e8be/jetified-dexter-4.2.0/AndroidManifest.xml:28:13-60
+103            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+103-->[com.karumi:dexter:4.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2aa2ddacce128babd666c2343eb4e8be/jetified-dexter-4.2.0/AndroidManifest.xml:29:13-69
+104        <activity
+104-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:24:9-31:50
+105            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+105-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:25:13-85
+106            android:excludeFromRecents="true"
+106-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:26:13-46
+107            android:exported="true"
+107-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:27:13-36
+108            android:launchMode="singleTask"
+108-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:28:13-44
+109            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+109-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:29:13-102
+110            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+110-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:30:13-72
+111
+112        <service
+112-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:33:9-39:19
+113            android:name="com.google.firebase.components.ComponentDiscoveryService"
+113-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:34:13-84
+114            android:directBootAware="true"
+114-->[com.google.firebase:firebase-common:19.3.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6a9b9a8303b1aad7ce70525e676b3c3a/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+115            android:exported="false" >
+115-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:35:13-37
+116            <meta-data
+116-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:36:13-38:85
+117                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+117-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:37:17-109
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-auth:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6ed8c5922ee7c09038310f55d8cda740/jetified-firebase-auth-19.2.0/AndroidManifest.xml:38:17-82
+119            <meta-data
+119-->[com.google.firebase:firebase-database:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/1c92c9f3629d695c106bdf50bd6542b7/jetified-firebase-database-19.2.0/AndroidManifest.xml:32:13-34:85
+120                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+120-->[com.google.firebase:firebase-database:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/1c92c9f3629d695c106bdf50bd6542b7/jetified-firebase-database-19.2.0/AndroidManifest.xml:33:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-database:19.2.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/1c92c9f3629d695c106bdf50bd6542b7/jetified-firebase-database-19.2.0/AndroidManifest.xml:34:17-82
+122            <meta-data
+122-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/7e87821e4ca8d3862c603722678014f7/jetified-play-services-measurement-api-17.2.1/AndroidManifest.xml:30:13-32:85
+123                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+123-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/7e87821e4ca8d3862c603722678014f7/jetified-play-services-measurement-api-17.2.1/AndroidManifest.xml:31:17-139
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.android.gms:play-services-measurement-api:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/7e87821e4ca8d3862c603722678014f7/jetified-play-services-measurement-api-17.2.1/AndroidManifest.xml:32:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-storage:19.1.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/a81919a840fe6c86e27f664f84bea44a/jetified-firebase-storage-19.1.0/AndroidManifest.xml:33:13-35:85
+126                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+126-->[com.google.firebase:firebase-storage:19.1.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/a81919a840fe6c86e27f664f84bea44a/jetified-firebase-storage-19.1.0/AndroidManifest.xml:34:17-107
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-storage:19.1.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/a81919a840fe6c86e27f664f84bea44a/jetified-firebase-storage-19.1.0/AndroidManifest.xml:35:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+129                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+129-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+131        </service>
+132
+133        <activity
+133-->[com.google.android.gms:play-services-auth:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2e71d36d58c3f3197f2a7d1287df8ecf/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+134            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+134-->[com.google.android.gms:play-services-auth:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2e71d36d58c3f3197f2a7d1287df8ecf/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+135            android:excludeFromRecents="true"
+135-->[com.google.android.gms:play-services-auth:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2e71d36d58c3f3197f2a7d1287df8ecf/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+136            android:exported="false"
+136-->[com.google.android.gms:play-services-auth:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2e71d36d58c3f3197f2a7d1287df8ecf/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+137            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+137-->[com.google.android.gms:play-services-auth:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2e71d36d58c3f3197f2a7d1287df8ecf/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+138        <!--
+139            Service handling Google Sign-In user revocation. For apps that do not integrate with
+140            Google Sign-In, this service will never be started.
+141        -->
+142        <service
+142-->[com.google.android.gms:play-services-auth:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2e71d36d58c3f3197f2a7d1287df8ecf/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+143            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+143-->[com.google.android.gms:play-services-auth:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2e71d36d58c3f3197f2a7d1287df8ecf/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+144            android:exported="true"
+144-->[com.google.android.gms:play-services-auth:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2e71d36d58c3f3197f2a7d1287df8ecf/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+145            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+145-->[com.google.android.gms:play-services-auth:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/2e71d36d58c3f3197f2a7d1287df8ecf/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+146
+147        <receiver
+147-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:29:9-33:20
+148            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+148-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:30:13-85
+149            android:enabled="true"
+149-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:31:13-35
+150            android:exported="false" >
+150-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:32:13-37
+151        </receiver>
+152        <receiver
+152-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:34:9-42:20
+153            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+153-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:35:13-100
+154            android:enabled="true"
+154-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:36:13-35
+155            android:exported="true"
+155-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:37:13-36
+156            android:permission="android.permission.INSTALL_PACKAGES" >
+156-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:38:13-69
+157            <intent-filter>
+157-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:39:13-41:29
+158                <action android:name="com.android.vending.INSTALL_REFERRER" />
+158-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:40:17-79
+158-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:40:25-76
+159            </intent-filter>
+160        </receiver>
+161
+162        <service
+162-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:44:9-47:40
+163            android:name="com.google.android.gms.measurement.AppMeasurementService"
+163-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:45:13-84
+164            android:enabled="true"
+164-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:46:13-35
+165            android:exported="false" />
+165-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:47:13-37
+166        <service
+166-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:48:9-52:72
+167            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+167-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:49:13-87
+168            android:enabled="true"
+168-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:50:13-35
+169            android:exported="false"
+169-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:51:13-37
+170            android:permission="android.permission.BIND_JOB_SERVICE" />
+170-->[com.google.android.gms:play-services-measurement:17.2.1] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/f083943c7d19427708d39027753bf133/jetified-play-services-measurement-17.2.1/AndroidManifest.xml:52:13-69
+171
+172        <receiver
+172-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+173            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+173-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+174            android:exported="true"
+174-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+175            android:permission="com.google.android.c2dm.permission.SEND" >
+175-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+176            <intent-filter>
+176-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+177                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+177-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
+177-->[com.google.firebase:firebase-iid:19.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/5f9811f0fba022ee3be0e50a8ccef090/jetified-firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+178            </intent-filter>
+179        </receiver>
+180
+181        <activity
+181-->[com.google.android.gms:play-services-base:17.1.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/65a81a8282c34fb3320d8f0fd0320c75/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+182            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+182-->[com.google.android.gms:play-services-base:17.1.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/65a81a8282c34fb3320d8f0fd0320c75/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+183            android:exported="false"
+183-->[com.google.android.gms:play-services-base:17.1.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/65a81a8282c34fb3320d8f0fd0320c75/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+184            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+184-->[com.google.android.gms:play-services-base:17.1.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/65a81a8282c34fb3320d8f0fd0320c75/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+185
+186        <provider
+186-->[com.google.firebase:firebase-common:19.3.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6a9b9a8303b1aad7ce70525e676b3c3a/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+187            android:name="com.google.firebase.provider.FirebaseInitProvider"
+187-->[com.google.firebase:firebase-common:19.3.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6a9b9a8303b1aad7ce70525e676b3c3a/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+188            android:authorities="com.ceeri.android.remotehealthmonitoring.firebaseinitprovider"
+188-->[com.google.firebase:firebase-common:19.3.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6a9b9a8303b1aad7ce70525e676b3c3a/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+189            android:exported="false"
+189-->[com.google.firebase:firebase-common:19.3.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6a9b9a8303b1aad7ce70525e676b3c3a/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+190            android:initOrder="100" />
+190-->[com.google.firebase:firebase-common:19.3.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/6a9b9a8303b1aad7ce70525e676b3c3a/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+191
+192        <meta-data
+192-->[com.google.android.gms:play-services-basement:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/9602e3725e9312508b4b085d0bc2ac28/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+193            android:name="com.google.android.gms.version"
+193-->[com.google.android.gms:play-services-basement:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/9602e3725e9312508b4b085d0bc2ac28/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+194            android:value="@integer/google_play_services_version" />
+194-->[com.google.android.gms:play-services-basement:17.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/9602e3725e9312508b4b085d0bc2ac28/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+195
+196        <provider
+196-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/1898a3270c7f7b629fbe64e9f8ecf5de/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+197            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+197-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/1898a3270c7f7b629fbe64e9f8ecf5de/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+198            android:authorities="com.ceeri.android.remotehealthmonitoring.lifecycle-process"
+198-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/1898a3270c7f7b629fbe64e9f8ecf5de/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+199            android:exported="false"
+199-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/1898a3270c7f7b629fbe64e9f8ecf5de/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+200            android:multiprocess="true" />
+200-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deeptirawat/.gradle/caches/transforms-2/files-2.1/1898a3270c7f7b629fbe64e9f8ecf5de/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+201    </application>
+202
+203</manifest>

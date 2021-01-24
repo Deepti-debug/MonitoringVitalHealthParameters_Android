@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AfterSignupActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/emailOfPatient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email-id: "
+                android:textColor="#1565C0"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/email_textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="52dp"
+                android:layout_toRightOf="@id/emailOfPatient"
+                android:textColor="#1565C0"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/nameOfPatient_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emailOfPatient"
+                android:text="Name: "
+                android:textColor="#1565C0"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/nameOfPatient_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="69dp"
+                android:backgroundTint="#1565C0"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Enter your name"
+                android:singleLine="true"
+                android:textColor="#1565C0"
+                android:textColorHint="#64B4F6"
+                android:textCursorDrawable="@drawable/color_cursor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/ageOfPatient_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age: "
+                android:textColor="#1565C0"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/ageOfPatient_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="90dp"
+                android:backgroundTint="#1565C0"
+                android:digits="0123456789"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Enter your age"
+                android:maxLength="3"
+                android:singleLine="true"
+                android:textColor="#1565C0"
+                android:textColorHint="#64B4F6"
+                android:textCursorDrawable="@drawable/color_cursor" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/bloodGroupOfPatient_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blood Group: "
+                android:textColor="#1565C0"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/bloodGroupOfPatient_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:backgroundTint="#1565C0"
+                android:digits="ABO-+aboRrHhDd"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:hint="Enter your blood group"
+                android:maxLength="4"
+                android:singleLine="true"
+                android:textColor="#1565C0"
+                android:textColorHint="#64B4F6"
+                android:textCursorDrawable="@drawable/color_cursor" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_choose_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/rounded_button"
+            android:text="Choose file"
+            android:textColor="#FFFFFF" />
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_above="@id/progress_bar"
+            android:layout_below="@id/button_choose_image"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true" />
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:progressTint="#1565C0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_upload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/rounded_button"
+                android:text="upload"
+                android:layout_marginRight="4dp"
+                android:textColor="#FFFFFF" />
+            <Button
+                android:id="@+id/button_signout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/rounded_button"
+                android:text="Sign Out"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

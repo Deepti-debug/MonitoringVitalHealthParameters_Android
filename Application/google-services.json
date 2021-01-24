@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1015603584551",
+    "firebase_url": "https://human-health-care.firebaseio.com",
+    "project_id": "human-health-care",
+    "storage_bucket": "human-health-care.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015603584551:android:cdf86cbd4a35cbe3ba3802",
+        "android_client_info": {
+          "package_name": "com.a.a.remotehealthmonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015603584551-7s45um9uu7eov3nb7lkmjrrsodeubs6h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.a.a.remotehealthmonitoring",
+            "certificate_hash": "03968de44af8490c3f0be7b9a1c37f7b06d8e8ac"
+          }
+        },
+        {
+          "client_id": "1015603584551-hc3bnn4pkmnfhmvoup5n71nvsencsf7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxc4KWqvonOeGnlt3sHPyRfWvSh53-ne8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015603584551-hc3bnn4pkmnfhmvoup5n71nvsencsf7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
