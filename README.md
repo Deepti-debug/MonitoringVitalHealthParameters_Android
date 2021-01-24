@@ -1,8 +1,8 @@
 # MonitoringVitalHealthParameters_Android
 
-Monitoring_Android ("master" branch) -
+"master" branch -
 --------------------------------------
-is the java code (created in android studio) responsible for: 
+contains the java code (created in android studio) responsible for: 
 
     • Showing graphical visualisation of the temporal data received from the multimodal device in the realtime. 
   
