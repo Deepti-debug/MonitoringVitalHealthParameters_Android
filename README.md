@@ -11,3 +11,7 @@ Monitoring_Android ("master" branch) -
 flowChart_android.pdf - 
 -----------------------
 • describes the flowchart of all the activities in the android code.
+
+Note -
+------
+• This repository is a part of a Project (https://github.com/Deepti-debug?tab=projects)
