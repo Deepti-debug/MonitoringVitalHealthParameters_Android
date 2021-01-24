@@ -17,3 +17,7 @@ Pre-requisites
 Courtesy
 ---------------
 * The boilerplate code to transfer data wirelessly between devices, has been imported from the Android code sample (Bluetooth Le Gatt)
+
+Note -
+------
+• This repository is a part of a Project (https://github.com/Deepti-debug?tab=projects)
