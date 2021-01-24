@@ -1,11 +1,9 @@
 
-Android BluetoothLeGatt Sample
+MonitoringVitalHealthParameters_Android
 ===================================
 
-This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
-to transmit arbitrary data between devices.
-
-Introduction
+This code is responsible for multiple things, which are,
+demonstrated in the PDF
 ------------
 
 This sample shows a list of available Bluetooth LE devices and provides
